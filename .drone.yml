@@ -3,3 +3,8 @@ pipeline:
     image: golang
     commands:
       - go build
+  docker:
+    image: plugins/docker
+    registry: ikr.iij.jp
+    repo: ikr.iij.jp/keisuk-t/drone-test
+    tags: latest
