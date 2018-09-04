@@ -8,3 +8,5 @@ pipeline:
     registry: ikr.iij.jp
     repo: ikr.iij.jp/keisuk-t/drone-test
     tags: latest
+    volumes:
+      - /etc/docker/certs.d:/etc/docker/certs.d
